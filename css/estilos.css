@@ -1,0 +1,649 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: url('../img/fondo.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family:'Open Sans',Sans-serif, Arial, Helvetica;
+	background-size: cover;
+}
+
+lottie-player {
+	margin: 0 auto;
+	vertical-align: top;
+}
+
+@keyframes banner {
+	0%, 23% {
+		background-image: url(https://p4.wallpaperbetter.com/wallpaper/131/75/831/couple-walk-top-travel-wallpaper-preview.jpg);
+		
+	}
+	25%, 45% {
+		background-image: url(https://www.bucayadventures.com/wp-content/uploads/2018/01/galapagos.jpg);
+	}
+	50%, 70% {
+		background-image: url(https://www.ecuadorhop.com/wp-content/uploads/2019/10/cotopaxi-1200x600-1.jpg);
+	}
+	75%, 100% {
+		background-image: url(https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1576621613553-161BXZHUMF9GRKK4E5GK/Paseos+en+canoas+en+la+selva+del+amazonas.jpg?format=1000w);
+	}
+}
+
+.contenedor {
+	width: 95%;
+	max-width: 700px;
+	margin: auto;
+	height: 100%;
+	align-items:center;
+}
+
+.tarjeta {
+	margin: 5px 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.699);
+	backdrop-filter: blur(2px);
+	border: solid 1px rgb(255, 255, 255, 05);
+	box-shadow: 1px 1px 5px #ffffffc4;
+	border-radius: 15px;
+	overflow: hidden;
+	z-index: 1000;	
+
+}
+
+
+.banner {
+	width: 100%;
+	animation: banner 8s infinite linear ;
+	background-size: 100% 100%;
+	position: static;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+}
+
+
+.portada  {
+	width: 100%;
+	vertical-align: top;
+	margin: 0%;
+	
+}
+
+.sidebar{
+	vertical-align: top;
+	margin: 0%;
+	position: fixed;
+	z-index: 1000; 
+	padding: 10px 5px;
+	left: 12px;
+	
+		
+}
+
+
+
+.sidebar .menu1 {
+	color: #fffffff1;
+	font-size: 20px;
+	padding: 3px 10px;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	animation: pulse 1.5s ;	
+}
+
+
+
+.side {
+	width: 40%;
+	background-color: rgba(22, 1, 1, 0.541);
+	backdrop-filter: blur(10px);
+	border: solid 1px rgb(255, 255, 255, 0.5);
+	border-radius: 10px;
+	display: none;
+	padding: 10px 0px;
+	position: fixed;
+	margin: 10px 0px;
+	box-shadow: 1px 1px 5px #ffffffc4;
+}
+
+
+.side a{
+	color: #f7f7f7f1;
+	font-size: 12px;
+	text-decoration: none;
+	display: block;
+	background: none;
+	padding: 3px 10px;
+	margin: 7px 0px;
+}
+
+.side a:hover {
+	color: #25D366;
+	background: #000c1183;
+}
+
+/* ----- ----- inicio informacion ----- ----- */
+.informacion {
+	text-align: center;
+
+
+}
+.informacion img {
+	width: 50%;
+	
+	
+}
+
+.informacion .titulo  {
+	text-align: center;
+	font-size: 18px;
+	padding: 5px;
+	color: rgb(49, 49, 1);
+}
+
+
+.informacion .subtitulo {
+	color: #535c64da;
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+.informacion p {
+	font-size: 12px;
+	color: #003a1a;
+}
+
+.back {
+	position: fixed;
+	z-index: 1200;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+	right: 16px;
+	bottom: 10px;
+	display: none;
+	animation: pulse2 1.7s ;	
+}
+
+
+@media screen  and  (min-width: 1100px){
+	.back { 
+	  display: block;
+	  }
+  }
+
+.back:hover {
+	background: linear-gradient(102deg, #0099ffc7 40%, #0099ffc7 60%);
+}
+
+.share {
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	top: 10px;
+	right: 5px;
+	margin: 2px;	
+}
+
+
+.descarga {
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	top: 55px;
+	right: 6px;	
+}
+
+.pago {
+	position: absolute;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	top: 95px;
+	right: 12px;	
+}
+
+
+.boton {
+	background: linear-gradient(102deg, #0998f7 40%, #0998f7 60%);
+	color: #fffffff1;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	padding: 6px 16%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #fdfdfdec;
+    
+}
+.boton:hover {
+	background: linear-gradient(102deg, #ffffff 40%, #e5e5fd 60%);
+	color: #0998f7;
+	
+}
+
+.informacion .qr img {
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 10px;	
+	border-radius: 8px;
+	box-shadow: 1px 1px 5px #020000c4;
+	border: solid 1px #ffffff;
+}
+.informacion .scan {
+      color: #080077;
+	  font-size: 12px;
+}
+
+
+/* ----- ----- portafolios ----- ----- */
+
+.portafolio {
+	text-align: center;
+	display: none;
+}
+
+.portafolio .logo2 {
+	width: 50%;
+}
+
+.boton2 {
+	background: #0099ff;
+	color: #fffffff1;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 10%;
+	border-radius: 10px;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+	
+}
+
+.boton2:hover {
+	background: linear-gradient(102deg, #ffffffce 40%, #ffffff6f 60%);
+	box-shadow: 1px 1px 5px #020000c4;
+	font-weight: bold;
+	color: #000000;
+}
+
+.portafolio .texto1 {
+	text-align: center;
+	font-size: 18px;
+	padding: 0px 15px;
+}
+
+.boton3 {
+	background: linear-gradient(102deg, #0099ff 40%, #0099ffd2 60%);
+	color: #fffffff1;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 10%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #020000c4;
+	margin: 0px 50px;
+	display: block;
+	
+}
+
+.boton3:hover {
+	background: linear-gradient(102deg, #ffffffce 40%, #ffffff6f 60%);
+	box-shadow: 1px 1px 5px #020000c4;
+	font-weight: bold;
+	color: #000000;
+}
+
+/* ----- ----- estilos de viaje ----- ----- */
+.costos {
+	text-align: center;
+	padding: 0px 10px;
+	display: none;
+	
+}
+
+.costos .text {
+	font-size: 10px;
+	color: #080077;
+}
+
+.costos .logo3 {
+	width: 45%;
+}
+
+.costos .sub5 {
+	margin: 2px 2px;
+}
+.costos .imgc {
+	width: 100%;
+	vertical-align: top;
+	border-radius: 10px;
+}
+
+@media screen  and  (min-width: 1200px){
+	.costos .imgc { 
+		width: 70%;
+	  }
+  }
+
+  @keyframes publi {
+	
+	0%, 23% {
+		background-image: url(http://c.files.bbci.co.uk/E069/production/_95694475_mediaitem95694474.jpg);
+		
+	}
+	25%, 45% {
+		background-image: url(https://media.istockphoto.com/id/624065670/es/foto/cascadas-de-la-selva-tropical-en-mindo-ecuador.jpg?s=612x612&w=0&k=20&c=98DlwreTnNd6ivasWkgKRO0eJQTpRs-YpSm0U_O3uZc=);
+	}
+	50%, 70% {
+		background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/EP3IXX5L6READO4SVPYJ4FGTGQ.jpg);
+	}
+	75%, 100% {
+		background-image: url(https://quenoticias.com/wp-content/uploads/2021/11/cuenca-Twitter-@labellacuenca.jpg);
+	}
+}
+
+
+  .costos .oro .galeria {
+	width: 100%;
+	height: 215px;
+	animation: publi 8s infinite linear;
+	background-size: 100% 100%;
+	position: static;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	border-radius: 4%;
+  }
+
+  .botonR {
+	background: #000000;
+	color: #fffffff1;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 10%;
+	border-radius: 10px;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+	
+}
+
+.botonR:hover {
+	background: linear-gradient(102deg, #ffffffce 40%, #ffffff6f 60%);
+	box-shadow: 1px 1px 5px #020000c4;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+.costos .enlace2 {
+	background: linear-gradient(102deg, #ffffffce 40%, #ffffff6f 60%);
+	box-shadow: 1px 1px 5px #0077ffc4;
+	font-weight: bold;
+	margin: 1px 1px;
+	padding: 2px 2%;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.costos p {
+	font-size: 16px;
+	padding: 2px 2px;
+}
+
+.costos a {
+	font-size: 12px;
+	
+}
+
+.costos .oro {
+	margin: 5px 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.199);
+	backdrop-filter: blur(2px);
+	border: solid 1px rgb(255, 255, 255, 05);
+	box-shadow: 1px 1px 5px #ffffffc4;
+	border-radius: 15px;
+
+	}
+	
+.costos .platino {
+	margin: 5px 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.199);
+	backdrop-filter: blur(2px);
+	border: solid 1px rgb(255, 255, 255, 05);
+	box-shadow: 1px 1px 5px #ffffffc4;
+	border-radius: 15px;
+		
+	
+		}
+.costos .diamante {
+	margin: 5px 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.199);
+	backdrop-filter: blur(2px);
+	border: solid 1px rgb(255, 255, 255, 05);
+	box-shadow: 1px 1px 5px #ffffffc4;
+	border-radius: 15px;
+		
+			}
+
+
+/* ----- ----- Redes Sociales ----- ----- */
+
+
+
+.redes-sociales {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.redes-sociales a {
+	display: inline-block;
+	font-style:10px;
+	width: 45px;
+	height: 45px;
+	padding: 8px 0;
+	border-radius: 50%;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	margin: 1px 10px;
+	box-shadow: 1px 1px 5px #020000c4;
+	border: solid 1px #ffffff96;
+}
+
+.redes-sociales a:hover {
+	background: #000203;
+}
+
+.redes-sociales .facebook { background: #3b5998; }
+.redes-sociales .whatsapp { background: #25d366; }
+.redes-sociales .phone { background: #0f7dd8; }
+.redes-sociales .instagram { background: #f0466a; }
+
+
+footer {
+
+	text-align: center;
+	padding: 5px 0;
+	z-index: 1000;
+	position: relative;
+	color: rgba(0, 0, 0, 0.726);
+	font-size: 14px;
+}
+
+footer a {
+	text-decoration: none;
+    color: #000;
+
+
+}
+
+footer a:hover {
+	color: #0998f7;
+}
+
+footer div img {
+	width: 4%;
+}
+
+footer .rango {
+	font-size: 10px;
+}
+
+
+@media screen  and  (min-width: 800px){
+	body { 
+	
+		background:linear-gradient(rgba(255, 255, 255, 0.447), rgba(0, 0, 0, 0.173)), url('../img/bg.png') no-repeat;
+
+	}
+}
+
+@media screen  and  (min-width: 1200px){
+	.boton3 { 
+	  display: block;
+	  margin: 0px 20%;
+	  }
+  }
+
+@media screen  and  (min-width: 1200px){
+  .descarga, .pago { 
+	display: none;
+	}
+}
+
+@media screen  and  (min-width: 1200px){
+	.descarga, .pago { 
+	  display: none;
+	  }
+  }
+
+@media screen  and  (min-width: 1400px){
+	.sidebar { 
+	  left: 27%;
+	  }
+  }
+
+  @media screen  and  (min-width: 1400px){
+	.back { 
+	  right: 28%;
+	  }
+  }
+
+@media screen  and  (max-width: 290px){
+	.redes-sociales a { 
+		font-size: 40px;	
+		color: #000;
+	}
+	.redes-sociales .whatsapp { background: none }
+	.redes-sociales .facebook { background: none }
+	.redes-sociales .phone { background: none }
+	.redes-sociales .instagram { background: none }
+}
+
+/* iconos banner */
+@font-face {
+	font-family: 'Material Icons Outlined';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v81/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format('woff2');
+  }
+  .material-icons {
+	font-family: 'Material Icons Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 25px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	background: rgba(0, 0, 0, 0.562);
+	padding: 5px 4px;
+	border-radius: 10px;
+  }
+  
+  .material-icons:hover {
+	  background-color: rgb(27, 118, 255);
+  }
+
+  .material-back {
+	font-family: 'Material Icons Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	background: rgba(0, 0, 0, 0.562);
+	padding: 5px 4px;
+	border-radius: 10px;
+
+  }
+
+  .materialpago {
+	font-family: 'Material Icons Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 25px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	background: rgba(0, 0, 0, 0.562);
+	padding: 5px 4px;
+	border-radius: 10px;
+
+  }
+
+
+  .materialpago:hover{
+	  background: rgba(144, 194, 44, 0.753);
+	  color: #fff;
+  }
+  .materialingles {
+	font-family: 'Material Icons Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	padding: 5px 4px;
+	border-radius: 10px;
+
+  }
+  /* screen 4 Formulario */
+
