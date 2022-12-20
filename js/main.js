@@ -36,7 +36,6 @@ var btn = document.getElementById("inicio"),
 function backweb() {
    
     if (contador==1) {
-        document.getElementById("sharelink").style.display = "none";
         document.getElementById("informacion").style.display = "block";
         document.getElementById("portafolio").style.display = "none";
         document.getElementById("side").style.display = "none";
@@ -44,17 +43,16 @@ function backweb() {
         contador=0;
         backarriba();
         history.back();
+        offcards();
 
     }
     else if(contador==2){
         document.getElementById("portafolio").style.display = "block";
-        document.getElementById("costos").style.display = "none";
-        document.getElementById("restaurante").style.display = "none";
-        document.getElementById("playa").style.display = "none";
-        document.getElementById("screen4").style.display = "none";
+        document.getElementById("viajes").style.display = "none";
         contador=1;
         backarriba();
         ids1();
+        offcards();
 
     }
     else{
@@ -64,110 +62,121 @@ function backweb() {
 
     } 
 
+function offcards(){
+    document.getElementById("quito").style.display = "block";
+    document.getElementById("imindo").src=  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbdGXOv0PxJFbBK_2KS6fIw236Ixaf9WBgRe2FRPkeblMjrGI43Q-glPM3GXiU2FMkDX6uHgCN7HHXKeiXeTvuBu777-2UEclWpWsCwTHQfbLIk2r1-i9saj-9Ry5GwV2RgE28BW23QR92htYbCb4MamWfshYpcyHr0K5QhzR7FNqnoTc71P3RlNwQ/s320/minddo.png`;
+    document.getElementById("imggalapagos").src= `https://feig.fias.org.ec/wp-content/uploads/sites/10/2021/11/Fondo-para-Control-de-Especies-Invasoras-de-Galapagos-FEIG-1.jpg`;
+    document.getElementById("imgamazonas").src= `https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/3d/65/07/gaia-amazon-eco-lodge.jpg?w=1200&h=-1&s=1`;
+    document.getElementById("galapagos2").style.display = "none";
+};
+
+
 
 function inicio() {
     document.getElementById("informacion").style.display = "block";	
     document.getElementById("portafolio").style.display = "none";
-    document.getElementById("costos").style.display = "none";
-    document.getElementById("restaurante").style.display = "none";
-    document.getElementById("screen4").style.display = "none";
+    document.getElementById("viajes").style.display = "none";
     document.getElementById("side").style.display = "none";
-    document.getElementById("playa").style.display = "none";
-    document.getElementById("sharelink").style.display = "none";
     conta=0;
     contador=0;
     backarriba();
     backweb();
+    offcards();
+
 }
 
 function servicios() {
     document.getElementById("portafolio").style.display = "block";
     document.getElementById("informacion").style.display = "none";
     document.getElementById("side").style.display = "none";
-    document.getElementById("sharelink").style.display = "none";
     conta=0;
     contador=1;
     ids1();
+    offcards();
 
 };
 
-function categorias() {
+function destinos() {
     document.getElementById("informacion").style.display = "none";	
     document.getElementById("portafolio").style.display = "none";
-    document.getElementById("costos").style.display = "block";
+    document.getElementById("viajes").style.display = "block";
     document.getElementById("side").style.display = "none";
     document.getElementById("informacion").style.display = "none";
-    document.getElementById("screen4").style.display = "none";
-    document.getElementById("restaurante").style.display = "none";
-    document.getElementById("playa").style.display = "none";
-    document.getElementById("sharelink").style.display = "none";
+    document.getElementById("destinos").textContent=  `Destinations`;
+    conta=0;
+    contador=2;
+    ids2();
+    backarriba();
+    offcards();
+    
+}
+
+function couples() {
+    document.getElementById("viajes").style.display = "block";
+    document.getElementById("galapagos").style.display = "block";
+    document.getElementById("informacion").style.display = "none";	
+    document.getElementById("portafolio").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("destinos").textContent=  `Destinations in Couple`;
+    conta=0;
+    contador=2;
+    ids2();
+    backarriba();
+    
+}
+
+
+
+function Family() {
+    document.getElementById("viajes").style.display = "block";
+    document.getElementById("informacion").style.display = "none";	
+    document.getElementById("portafolio").style.display = "none";
+    document.getElementById("galapagos").style.display = "none";
+    document.getElementById("galapagos2").style.display = "block";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("destinos").textContent=  `Destinations in Family`;
     conta=0;
     contador=2;
     ids2();
     backarriba(); 
-    
-    
 }
 
-function restaurante() {
+function Water() {
+    document.getElementById("viajes").style.display = "block";
+    document.getElementById("informacion").style.display = "none";	
     document.getElementById("portafolio").style.display = "none";
-    document.getElementById("restaurante").style.display = "block";
     document.getElementById("side").style.display = "none";
-    document.getElementById("informacion").style.display = "none";
-    document.getElementById("costos").style.display = "none";
-    document.getElementById("screen4").style.display = "none";
-    document.getElementById("playa").style.display = "none";
-    document.getElementById("sharelink").style.display = "none";
+    document.getElementById("quito").style.display = "none";
+    document.getElementById("destinos").textContent=  `Destinations in Water`;
+    document.getElementById("imgamazonas").src= `https://nucleovisual.com/wp-content/uploads/2020/04/Todo-sobre-el-Amazonas-01.jpg`;
+    document.getElementById("imggalapagos").src= `https://www.voyagesdereve.ch/upload/images/xBUCEO_GALAPAGOS_001.jpg.pagespeed.ic.6N4F27TS8e.jpg`;
+    document.getElementById("imindo").src= `https://www.laislamindo.com/img/portfolio/canyoning.jpg`;
+    document.getElementById("galapagos").style.display = "block";
     conta=0;
     contador=2;
-    backarriba();
     ids2();
-    
-    
-}
-
-function planes() {
-    document.getElementById("screen4").style.display = "block";
-    document.getElementById("portafolio").style.display = "none";
-    document.getElementById("sharelink").style.display = "none";
-    document.getElementById("side").style.display = "none";
-    document.getElementById("informacion").style.display = "none";
-    document.getElementById("restaurante").style.display = "none";
-    document.getElementById("costos").style.display = "none";
-    document.getElementById("playa").style.display = "none";
-    conta=0;
-    contador=2; 
-    ids2();
-    backarriba();     
+    backarriba();    
         
 }
 
 
-function playa() {
-    document.getElementById("playa").style.display = "block";
-    document.getElementById("screen4").style.display = "none";
+function aventura() {
+    document.getElementById("informacion").style.display = "none";	
     document.getElementById("portafolio").style.display = "none";
+    document.getElementById("viajes").style.display = "block";
     document.getElementById("side").style.display = "none";
     document.getElementById("informacion").style.display = "none";
-    document.getElementById("restaurante").style.display = "none";
-    document.getElementById("costos").style.display = "none";
-    document.getElementById("sharelink").style.display = "none";
+    document.getElementById("destinos").textContent=  `Destinations of Adventure`;
+    document.getElementById("galapagos2").style.display = "block";
     conta=0;
-    contador=2; 
+    contador=2;
     ids2();
-    backarriba();  
+    backarriba(); 
         
 }
 
 function sharetj() {
-    document.getElementById("sharelink").style.display = "block";
-    document.getElementById("informacion").style.display = "none";
-    document.getElementById("portafolio").style.display = "none";
-    document.getElementById("side").style.display = "none";
-    document.getElementById("costos").style.display = "none";
-    document.getElementById("restaurante").style.display = "none";
-    document.getElementById("screen4").style.display = "none";
-    document.getElementById("playa").style.display = "none";
+
     conta=0;
     contador=1;
     ids1();    
@@ -182,22 +191,20 @@ function back() {
         document.getElementById("informacion").style.display = "block";
         document.getElementById("portafolio").style.display = "none";
         document.getElementById("side").style.display = "none";
-        document.getElementById("sharelink").style.display = "none";
         conta=0;
         contador=0;
         backarriba();
         history.back();
+        offcards();
 
     }
     else if(contador==2){
         document.getElementById("portafolio").style.display = "block";
-        document.getElementById("costos").style.display = "none";
-        document.getElementById("restaurante").style.display = "none";
-        document.getElementById("playa").style.display = "none";
-        document.getElementById("screen4").style.display = "none";
+        document.getElementById("viajes").style.display = "none";
         contador=1;
         backarriba();
         ids1();
+        offcards();
 
     }
     else{
@@ -301,17 +308,17 @@ document.querySelector('.side')
           
           //ALERTAS>
           function save(){
-            let url = `https://drive.google.com/u/0/uc?id=1VVSTlUODTMNHCKxJUVCxXnqyZcBFl6AC&export=download`;
+            let url = `https://drive.google.com/u/0/uc?id=1mQGrB6AbIbD_KEyd5GMtFSZHXyzO0lCz&export=download`;
             window.open(url); 
            };
           
           function ftuser() {
               Swal.fire({
-                  title: 'Hostería Los Cedros',
-                  text: 'Alojamiento Mindo-Ecuador',
-                  imageUrl: 'img/logocedros.png',
-                  imageWidth: 100,
-                  confirmButtonText: 'Añadir a Contactos',
+                  title: 'Travel Agency',
+                  text: 'add the contact to your phone',
+                  imageUrl: 'img/logofriends2.png',
+                  imageWidth: 200,
+                  confirmButtonText: 'Add',
                   showCloseButton: 'true',
                   showCancelButton: true,
             
