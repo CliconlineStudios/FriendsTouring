@@ -65,6 +65,7 @@ function backweb() {
 function offcards(){
     document.getElementById("quito").style.display = "block";
     document.getElementById("imindo").src=  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbdGXOv0PxJFbBK_2KS6fIw236Ixaf9WBgRe2FRPkeblMjrGI43Q-glPM3GXiU2FMkDX6uHgCN7HHXKeiXeTvuBu777-2UEclWpWsCwTHQfbLIk2r1-i9saj-9Ry5GwV2RgE28BW23QR92htYbCb4MamWfshYpcyHr0K5QhzR7FNqnoTc71P3RlNwQ/s320/minddo.png`;
+    document.getElementById("imggalapagos2").src= `https://springtravelecuador.com/wp-content/uploads/mujer-gps.jpg`;
     document.getElementById("imggalapagos").src= `https://feig.fias.org.ec/wp-content/uploads/sites/10/2021/11/Fondo-para-Control-de-Especies-Invasoras-de-Galapagos-FEIG-1.jpg`;
     document.getElementById("imgamazonas").src= `https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/3d/65/07/gaia-amazon-eco-lodge.jpg?w=1200&h=-1&s=1`;
     document.getElementById("galapagos2").style.display = "none";
@@ -150,7 +151,7 @@ function Water() {
     document.getElementById("destinos").textContent=  `Destinations in Water`;
     document.getElementById("imgamazonas").src= `https://nucleovisual.com/wp-content/uploads/2020/04/Todo-sobre-el-Amazonas-01.jpg`;
     document.getElementById("imggalapagos").src= `https://www.voyagesdereve.ch/upload/images/xBUCEO_GALAPAGOS_001.jpg.pagespeed.ic.6N4F27TS8e.jpg`;
-    document.getElementById("imindo").src= `https://www.laislamindo.com/img/portfolio/canyoning.jpg`;
+    document.getElementById("imindo").src= `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY77nW5VMRtIbn25UPl-_Lv6_2uzSpfgQ7p_ECvTNSBjQaUFtBk6FlYCEkrKPhRwEzIPf-CbJetrap1ZbL4oozU-lqo8cjtVfkrw6FK8fQtBMTdSwumsvQapHVQHT218WKJJzd7jnQ-ldgteRfo3OAM5Cjmr3ahXApGUutKXaKdvh3-Lcu9Ow6_l3a/s320/canyoning.jpg`;
     document.getElementById("galapagos").style.display = "block";
     conta=0;
     contador=2;
