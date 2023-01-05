@@ -21,17 +21,34 @@ lottie-player {
 
 @keyframes banner {
 	0%, 23% {
-		background-image: url(https://p4.wallpaperbetter.com/wallpaper/131/75/831/couple-walk-top-travel-wallpaper-preview.jpg);
+		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB9iE5YgtM_jr64T7oB_lyqi6f2dTJYEmizyFTTQ_dn0U227n3wFYUbGsq2mcby5BNpwR7n5FFJSMS7YFRPYsbVIuLgE-wrDj087ZUi9sll12qT3m7MwoPXtiFxkXc4XephCFb3Cfzzqc_XXO0zTr1A-Rf34ytuv0mZPgI3CvtriJ2wEF3_pXZY38k/s320/pareja.jpg);
 		
 	}
 	25%, 45% {
-		background-image: url(https://www.bucayadventures.com/wp-content/uploads/2018/01/galapagos.jpg);
+		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNVib1aUBas5TGJg3-8iZjPkev_3IJ0XbT2nodEXPDthentnSlFAz9eyiij946Li-8YfhK3WhDMf3GL8__w-hUhuTneIInVOGlh4I68g5Lorh2skAxWNezX5Hc4t5La6kD7074dJTsfO2nIrmMeZoPqMqEgdJQAIXy5Fkm09QAhSI4QglyIqNNxZeQ/s320/galapagosplayafcs.png);
 	}
 	50%, 70% {
-		background-image: url(https://www.ecuadorhop.com/wp-content/uploads/2019/10/cotopaxi-1200x600-1.jpg);
+		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgbVVQtde5Yr9Hm5acaYaBpofbaDOCwFZbG0V0VGUZnK7K6kcX8vE-CqJvVRR2JCWDmU-1axH8NbKYtgXE1NJhdaB4MEdseypn2cv8Vm-ygHRsjWDxqGBhuj1kJWoidgoqkd5sd9A6jOK9qpVphP09nd3Mbvs_i8FV_R3SX-4UZAXFRNfxSxjlxWp4/s320/volcan2.jpg);
 	}
 	75%, 100% {
-		background-image: url(https://images.squarespace-cdn.com/content/v1/5d77a7f8ad30356d21445262/1576621613553-161BXZHUMF9GRKK4E5GK/Paseos+en+canoas+en+la+selva+del+amazonas.jpg?format=1000w);
+		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVUjF2kRl7ACKpr32L4mXfHMR_xohgOnYusoUNG1mOhz_D2q9CNWeW2mx_AecWrAacraN_05sPEJnDxlSIrDxSTAzPkuNKQK9GC3MP33T8ELd6cQ0fPRP8lItiYLPLiplPciky7aKhzPGZN3WQB1YDHJ3-cN9iEpitJj6_AT_xOccOZOSoC6ZdigMU/s320/amzonasbotes.jpg);
+	}
+}
+
+@keyframes publi {
+	
+	0%, 23% {
+		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihvQkViUSptZYvEWxvyxO8Y2lx_w-uqQ4dUzQhT_aXLDY9xY5KxPGi4H4tFxyavyUcRlo52k9ww6PDt1qkHb5Hc2PYYmBnklIP6EXZjlTxPJmGqZhFQXLiQoIe7_j-HhCGwNt176xgrHZK-TqO21yu1ZPrz7sca80iLXgDBy9cuDB6jekt-TNlFL2P/s320/galapagosigunas.jpg);
+		
+	}
+	25%, 45% {
+		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLmHyA3ZUFAZq4enYtWtB_YRS0j85elGJq9zxm_5bTPZTNPf3S4yyX4YUDnb-dRDu4XTjTRvSQw5MX9DkD0YNzHl6DL0yVGvGHUO_YCOo5aNVGlow-xpfFN9yIZrB0P_HAD2ZF1lsGTBoCvQDaU2s25c5X7G-JMvv4Gtb1kjK5tTClzoJZ2nMVLwJ-/s320/mindocascada.jpg);
+	}
+	50%, 70% {
+		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8m3_c5U08mwVanO5gvuZDzXBkhnePQ_x6M2cQkPmAvt85QYJQYO8IPIin-vml2E-n1IbW4c_5aXCeuuENRftx9QPdEtZulef8mdiFGHStFA8Q5-05Yu3fC127-XFk5BksPV7gMfSt_tcHtGmSD-V4NuE-_jI2Cfl3KjqAzeL2viuG3gS80JqAvvw1/s320/quitovirgen.jpg);
+	}
+	75%, 100% {
+		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAPscHboaJCLI8Yx---pLN3SG54jXMbZ_u6PhOJGWGX7cEEpOFH6MV-EEGO1Y3_idbWNmPmr8wa3JZunImWcr4ovwCtJYVBAmDvkMwqWy6-5xDX8we8lQzM_a4jrng51fH208zbJVZMsEwdhDGUF6gN0nefpdsuXFYTv6jOGMYjLvCiCKFWgz2CKfS/s320/cuenca.jpg);
 	}
 }
 
@@ -336,23 +353,6 @@ lottie-player {
 		width: 70%;
 	  }
   }
-
-  @keyframes publi {
-	
-	0%, 23% {
-		background-image: url(http://c.files.bbci.co.uk/E069/production/_95694475_mediaitem95694474.jpg);
-		
-	}
-	25%, 45% {
-		background-image: url(https://media.istockphoto.com/id/624065670/es/foto/cascadas-de-la-selva-tropical-en-mindo-ecuador.jpg?s=612x612&w=0&k=20&c=98DlwreTnNd6ivasWkgKRO0eJQTpRs-YpSm0U_O3uZc=);
-	}
-	50%, 70% {
-		background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/EP3IXX5L6READO4SVPYJ4FGTGQ.jpg);
-	}
-	75%, 100% {
-		background-image: url(https://quenoticias.com/wp-content/uploads/2021/11/cuenca-Twitter-@labellacuenca.jpg);
-	}
-}
 
 
   .viajes .cards .galeria {
