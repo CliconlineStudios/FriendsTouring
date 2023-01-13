@@ -39,6 +39,8 @@ function backweb() {
         document.getElementById("informacion").style.display = "block";
         document.getElementById("portafolio").style.display = "none";
         document.getElementById("side").style.display = "none";
+        document.getElementById("screen4").style.display = "none";
+        document.getElementById("screen5").style.display = "none";
         conta=0;
         contador=0;
         backarriba();
@@ -49,6 +51,8 @@ function backweb() {
     else if(contador==2){
         document.getElementById("portafolio").style.display = "block";
         document.getElementById("viajes").style.display = "none";
+        document.getElementById("screen4").style.display = "none";
+        document.getElementById("screen5").style.display = "none";
         contador=1;
         backarriba();
         ids1();
@@ -70,6 +74,7 @@ function offcards(){
     document.getElementById("imgamazonas").src= `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHRpX0l5Oq0bGJIoyG3dlIKvUpU_p8-FbZD2PGIx9C---vIvQFuYw4CmXLUPu0oiOMavhhX1RwJTHflTOsc169fMoFRPyHdh7cHezVjLyHbGYUbssVNSu2t2Wfm6NIKLna1_DBpitKVJWNQLIyM6ti2LWz4goRzJ-4YI2K8m_Z5ji1k7YFXyPk3tn_/s320/amazonaslog.jpg`;
     document.getElementById("galapagos2").style.display = "none";
     document.getElementById("cotopaxi").style.display = "none";
+    document.getElementById("screen4").style.display = "none";
 };
 
 
@@ -79,6 +84,8 @@ function inicio() {
     document.getElementById("portafolio").style.display = "none";
     document.getElementById("viajes").style.display = "none";
     document.getElementById("side").style.display = "none";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("screen5").style.display = "none";
     conta=0;
     contador=0;
     backarriba();
@@ -92,6 +99,8 @@ function servicios() {
     document.getElementById("informacion").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("viajes").style.display = "none";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("screen5").style.display = "none";
     conta=0;
     contador=1;
     ids1();
@@ -106,6 +115,8 @@ function destinos() {
     document.getElementById("side").style.display = "none";
     document.getElementById("informacion").style.display = "none";
     document.getElementById("destinos").textContent=  `Destinations`;
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("screen5").style.display = "none";
     conta=0;
     contador=2;
     ids2();
@@ -120,6 +131,8 @@ function couples() {
     document.getElementById("portafolio").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("destinos").textContent=  `Destinations in Couple`;
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("screen5").style.display = "none";
     conta=0;
     contador=2;
     ids2();
@@ -137,6 +150,8 @@ function Family() {
     document.getElementById("galapagos2").style.display = "block";
     document.getElementById("side").style.display = "none";
     document.getElementById("destinos").textContent=  `Destinations in Family`;
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("screen5").style.display = "none";
     conta=0;
     contador=2;
     ids2();
@@ -154,6 +169,8 @@ function Water() {
     document.getElementById("imggalapagos").src= `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvZrW_vPGQYN_WqD2pCUKKjZQ5QtWh3p75FZ7U0A0JLWvO4OxKJMdr1O9y8slhpuwpgMbl2yAZTDPo9PPSFZ1KU9OWxAU3eAX-F_4MCV799vLz-NNQQE2RGSIYpKG8z4ZcWhZrDsBBw0e3BKRmhvlEAzyAFDCsHq1uozKVdHW2_wsxJWK_AZWHtXVY/s320/galapagosagua.jpg`;
     document.getElementById("imindo").src= `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLmHyA3ZUFAZq4enYtWtB_YRS0j85elGJq9zxm_5bTPZTNPf3S4yyX4YUDnb-dRDu4XTjTRvSQw5MX9DkD0YNzHl6DL0yVGvGHUO_YCOo5aNVGlow-xpfFN9yIZrB0P_HAD2ZF1lsGTBoCvQDaU2s25c5X7G-JMvv4Gtb1kjK5tTClzoJZ2nMVLwJ-/s320/mindocascada.jpg`;
     document.getElementById("galapagos").style.display = "block";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("screen5").style.display = "none";
     conta=0;
     contador=2;
     ids2();
@@ -172,6 +189,8 @@ function aventura() {
     document.getElementById("destinos").textContent=  `Destinations of Adventure`;
     document.getElementById("galapagos2").style.display = "block";
     document.getElementById("cotopaxi").style.display = "block";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("screen5").style.display = "none";
     conta=0;
     contador=2;
     ids2();
@@ -179,13 +198,40 @@ function aventura() {
         
 }
 
-function sharetj() {
-
+function screnn4() {
+    document.getElementById("informacion").style.display = "none";	
+    document.getElementById("portafolio").style.display = "none";
+    document.getElementById("viajes").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("informacion").style.display = "none";
+    document.getElementById("quito").style.display = "none";
+    document.getElementById("cotopaxi").style.display = "block";
+    document.getElementById("screen4").style.display = "block";
+    document.getElementById("screen5").style.display = "none";
     conta=0;
-    contador=1;
-    ids1();    
-       
+    contador=2;
+    ids2();
+    backarriba(); 
+        
 }
+
+
+function screen5() {
+    document.getElementById("viajes").style.display = "none";
+    document.getElementById("galapagos").style.display = "none";
+    document.getElementById("informacion").style.display = "none";	
+    document.getElementById("portafolio").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("screen4").style.display = "none";
+    document.getElementById("screen5").style.display = "block";
+    conta=0;
+    contador=2;
+    ids2();
+    backarriba();
+    
+}
+
+
 
 //   boton atras
 
@@ -218,38 +264,6 @@ function back() {
 
     } 
 
-
-       //    menu laterl 
-
-       var btns = document.getElementById("inicio"),
-       informacion = document.getElementById("infomacion"),
-       conta=0;
-   
-       function sidebar()  {
-   
-           if (conta==0) {
-               document.getElementById("side").style.display = "block";
-               conta=1;
-           }
-           else{
-               document.getElementById("side").style.display = "none";
-               conta=0;
-           }
-           }
-   
-           function cerrarside() {
-               document.getElementById("side").style.display = "none";
-               conta=0;
-               
-           }
-   
-           // llevar cerrar side automatico
-   
-           document.querySelector('.tarjeta').addEventListener('click',()=>{
-               document.getElementById("side").style.display = "none";
-               conta=0;
-               });
-   
 
    //    menu laterl 
 
@@ -309,7 +323,7 @@ document.querySelector('.side')
          behavior: 'smooth'
         });
         });
-          
+        var pass = '070723';
           //ALERTAS>
           function save(){
             let url = `https://drive.google.com/u/0/uc?id=1mQGrB6AbIbD_KEyd5GMtFSZHXyzO0lCz&export=download`;
@@ -355,7 +369,31 @@ document.querySelector('.side')
             })};
           
 
+// admin
 
+document.querySelector("#submit").addEventListener("click", e => {
+    e.preventDefault();
 
+    let clave = document.querySelector("#clave").value;
+    let resp = document.querySelector("#respuesta");
+  
 
+    if (clave === pass ) {
+    resp.classList.remove("fail");
+    resp.classList.remove("send");
+    resp.innerHTML = `Clave, Aprovada`;
+    screen5();
+    }else if (clave === ""){
+     resp.classList.add("fail");
+    resp.classList.remove("send");
+    resp.innerHTML = `Tu Clave, ${clave} es Incorrecta `;
+    return false;   
+    }else {
+        resp.classList.add("fail");
+        resp.classList.remove("send");
+        resp.innerHTML = `Tu Clave, ${clave} es Incorrecta `;
+        return false;  
+    }
+
+  });
 
