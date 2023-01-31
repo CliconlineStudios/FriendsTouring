@@ -159,7 +159,6 @@ lottie-player {
 	
 }
 
-
 .informacion .bt .a {
 	display: block;
 }
@@ -185,6 +184,12 @@ lottie-player {
 
 }
 
+@media screen  and  (min-width: 1100px){
+	.informacion .titulo2 { 
+		font-size: 16px;
+	  }
+  }
+
 .informacion .titulo  {
 	text-align: center;
 	font-size: 18px;
@@ -198,10 +203,14 @@ lottie-player {
 	font-size: 12px;
 	line-height: 0px;
 	margin-bottom: 0px;
-	
-
-
+	font-weight: bold;
 }
+
+@media screen  and  (min-width: 1100px){
+	.informacion .subtitulo { 
+		font-size: 16px;
+	  }
+  }
 
 .informacion p {
 	font-size: 12px;
@@ -350,6 +359,93 @@ lottie-player {
 	color: #000000;
 }
 
+
+.cards {
+	margin: 5px 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.199);
+	backdrop-filter: blur(2px);
+	border: solid 1px rgb(255, 255, 255, 05);
+	box-shadow: 1px 1px 5px #ffffffc4;
+	border-radius: 15px;
+	
+		
+			}
+
+.cards img{
+	width: 100%;
+	transition: transform 0.3s;
+			}
+.cards .zoom {
+	overflow: hidden;
+}
+
+
+.cards img:hover {
+transform: scale(1.07);
+			  }			
+
+
+.cards .text {
+	font-size: 12px;
+	padding: 5px 5px;
+}
+
+.logo2 {
+	width: 65%;}
+
+/* ----- ----- tour parejas  ----- ----- */
+.parejas {
+	text-align: center;
+	padding: 0px 10px;
+	display: none;
+	
+}
+
+
+/* ----- ----- tour family  ----- ----- */
+.family {
+	text-align: center;
+	padding: 0px 10px;
+	display: none;
+	
+}
+
+.family .table-container {
+	width: 100%;
+	margin: 0 auto;
+  }
+  
+  table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+  
+  th, td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: left;
+	font-size: 10px;
+  }
+  
+  th {
+	background-color: rgb(24, 169, 247);
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	
+
+  }
+  
+/* ----- ----- touraventura  ----- ----- */
+.aventura {
+	text-align: center;
+	padding: 0px 10px;
+	display: none;
+	
+}
+
+
 /* ----- ----- estilos de viaje ----- ----- */
 .viajes {
 	text-align: center;
@@ -436,18 +532,6 @@ lottie-player {
 	font-size: 12px;
 	
 }
-
-
-.viajes .cards {
-	margin: 5px 0;
-	width: 100%;
-	background-color: rgba(255, 255, 255, 0.199);
-	backdrop-filter: blur(2px);
-	border: solid 1px rgb(255, 255, 255, 05);
-	box-shadow: 1px 1px 5px #ffffffc4;
-	border-radius: 15px;
-		
-			}
 
 /* ----- ----- screnn5 ----- ----- */
 
