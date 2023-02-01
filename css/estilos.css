@@ -19,6 +19,9 @@ lottie-player {
 	vertical-align: top;
 }
 
+
+
+
 @keyframes banner {
 	0%, 23% {
 		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB9iE5YgtM_jr64T7oB_lyqi6f2dTJYEmizyFTTQ_dn0U227n3wFYUbGsq2mcby5BNpwR7n5FFJSMS7YFRPYsbVIuLgE-wrDj087ZUi9sll12qT3m7MwoPXtiFxkXc4XephCFb3Cfzzqc_XXO0zTr1A-Rf34ytuv0mZPgI3CvtriJ2wEF3_pXZY38k/s320/pareja.jpg);
@@ -32,23 +35,6 @@ lottie-player {
 	}
 	75%, 100% {
 		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVUjF2kRl7ACKpr32L4mXfHMR_xohgOnYusoUNG1mOhz_D2q9CNWeW2mx_AecWrAacraN_05sPEJnDxlSIrDxSTAzPkuNKQK9GC3MP33T8ELd6cQ0fPRP8lItiYLPLiplPciky7aKhzPGZN3WQB1YDHJ3-cN9iEpitJj6_AT_xOccOZOSoC6ZdigMU/s320/amzonasbotes.jpg);
-	}
-}
-
-@keyframes publi {
-	
-	0%, 23% {
-		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihvQkViUSptZYvEWxvyxO8Y2lx_w-uqQ4dUzQhT_aXLDY9xY5KxPGi4H4tFxyavyUcRlo52k9ww6PDt1qkHb5Hc2PYYmBnklIP6EXZjlTxPJmGqZhFQXLiQoIe7_j-HhCGwNt176xgrHZK-TqO21yu1ZPrz7sca80iLXgDBy9cuDB6jekt-TNlFL2P/s320/galapagosigunas.jpg);
-		
-	}
-	25%, 45% {
-		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLmHyA3ZUFAZq4enYtWtB_YRS0j85elGJq9zxm_5bTPZTNPf3S4yyX4YUDnb-dRDu4XTjTRvSQw5MX9DkD0YNzHl6DL0yVGvGHUO_YCOo5aNVGlow-xpfFN9yIZrB0P_HAD2ZF1lsGTBoCvQDaU2s25c5X7G-JMvv4Gtb1kjK5tTClzoJZ2nMVLwJ-/s320/mindocascada.jpg);
-	}
-	50%, 70% {
-		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8m3_c5U08mwVanO5gvuZDzXBkhnePQ_x6M2cQkPmAvt85QYJQYO8IPIin-vml2E-n1IbW4c_5aXCeuuENRftx9QPdEtZulef8mdiFGHStFA8Q5-05Yu3fC127-XFk5BksPV7gMfSt_tcHtGmSD-V4NuE-_jI2Cfl3KjqAzeL2viuG3gS80JqAvvw1/s320/quitovirgen.jpg);
-	}
-	75%, 100% {
-		background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAPscHboaJCLI8Yx---pLN3SG54jXMbZ_u6PhOJGWGX7cEEpOFH6MV-EEGO1Y3_idbWNmPmr8wa3JZunImWcr4ovwCtJYVBAmDvkMwqWy6-5xDX8we8lQzM_a4jrng51fH208zbJVZMsEwdhDGUF6gN0nefpdsuXFYTv6jOGMYjLvCiCKFWgz2CKfS/s320/cuenca.jpg);
 	}
 }
 
@@ -116,7 +102,9 @@ lottie-player {
 	animation: pulse 1.5s ;	
 }
 
-
+.sidebar .menu1:hover{
+	background: #07638a83;
+}
 
 .side {
 	width: 40%;
@@ -147,75 +135,11 @@ lottie-player {
 	background: #000c1183;
 }
 
-/* ----- ----- inicio informacion ----- ----- */
-.informacion {
-	text-align: center;
 
-
-}
-.informacion img {
-	width: 80%;
-	
-	
+.side .bandside {
+	width: 20px;
 }
 
-.informacion .bt .a {
-	display: block;
-}
-
-
-.informacion .bt .bandera {
-	width: 20%;
-	margin: 0px 12px;
-
-}
-
-.informacion .bt .bandera:hover {
-	scale: 110%;
-}
-
-
-.informacion .titulo2  {
-	text-align: center;
-	font-size: 12px;
-	padding: 5px;
-	color: rgb(102, 69, 2);
-	font-weight: bold;
-
-}
-
-@media screen  and  (min-width: 1100px){
-	.informacion .titulo2 { 
-		font-size: 16px;
-	  }
-  }
-
-.informacion .titulo  {
-	text-align: center;
-	font-size: 18px;
-	padding: 5px;
-	color: rgb(49, 49, 1);
-}
-
-
-.informacion .subtitulo {
-	color: #064881;
-	font-size: 12px;
-	line-height: 0px;
-	margin-bottom: 0px;
-	font-weight: bold;
-}
-
-@media screen  and  (min-width: 1100px){
-	.informacion .subtitulo { 
-		font-size: 16px;
-	  }
-  }
-
-.informacion p {
-	font-size: 12px;
-	color: #003a1a;
-}
 
 .back {
 	position: fixed;
@@ -257,16 +181,23 @@ lottie-player {
 	text-decoration: none;
 	color: #fff;
 	top: 55px;
-	right: 6px;	
+	right: 10px;	
 }
 
 .pago {
 	position: absolute;
 	text-decoration: none;
 	color: rgb(255, 255, 255);
-	top: 95px;
-	right: 12px;	
+	top: 98px;
+	right: 9px;
+	background: rgba(0, 0, 0, 0.562);
+	margin: 1px 1px;
+	padding: 4px 8px;
+	border-radius: 5px;
+	font-size: 20px;
+		
 }
+
 
 
 .boton {
@@ -286,30 +217,44 @@ lottie-player {
 	
 }
 
-.informacion .qr img {
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 10px;	
-	border-radius: 8px;
-	box-shadow: 1px 1px 5px #020000c4;
-	border: solid 1px #ffffff;
-}
-.informacion .scan {
-      color: #080077;
-	  font-size: 12px;
-}
-
 
 /* ----- ----- portafolios ----- ----- */
 
 .portafolio {
 	text-align: center;
-	display: none;
+	
 }
+
+.portafolio .pr1 {
+		width: 100%;
+		background-size: 100% 100%;
+		position: static;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;	
+}
+
+
+.portafolio .pr1 .personal {
+	font-size: 12px;
+	position: absolute;
+	bottom: 6px;
+	font-weight: bold;
+}
+.portafolio .subtitulo {
+	color: #064881;
+	font-size: 12px;
+	line-height: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
 
 .portafolio .logo2 {
 	width: 65%;
+	padding: 5px 0px 0px;
+
 }
 
 .boton2 {
@@ -344,7 +289,7 @@ lottie-player {
 	font-size: 14px;
 	text-align: center;
 	text-decoration: none;
-	padding: 10px 10%;
+	padding: 5px 5%;
 	border-radius: 10px;
 	box-shadow: 1px 1px 5px #020000c4;
 	margin: 0px 50px;
@@ -392,7 +337,98 @@ transform: scale(1.07);
 }
 
 .logo2 {
-	width: 65%;}
+	width: 65%;
+	padding: 5px 0px 0px;}
+	
+
+
+
+/* ----- ----- codigoQR ----- ----- */
+.codeqr {
+	text-align: center;
+	display: none;
+
+
+}
+.codeqr .logo2 {
+	width: 60%;
+	padding: 5px 0px 0px;
+	
+	
+}
+
+.codeqr .bt .a {
+	display: block;
+}
+
+
+.codeqr .bt .bandera {
+	width: 20%;
+	margin: 0px 12px;
+
+}
+
+.codeqr .bt .bandera:hover {
+	scale: 110%;
+}
+
+
+.codeqr .titulo2  {
+	text-align: center;
+	font-size: 12px;
+	padding: 5px;
+	color: rgb(102, 69, 2);
+	font-weight: bold;
+
+}
+
+@media screen  and  (min-width: 1100px){
+	.codeqr .titulo2 { 
+		font-size: 16px;
+	  }
+  }
+
+.codeqr .titulo  {
+	text-align: center;
+	font-size: 18px;
+	padding: 5px;
+	color: rgb(49, 49, 1);
+}
+
+
+.codeqr .subtitulo {
+	color: #064881;
+	font-size: 12px;
+	line-height: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+@media screen  and  (min-width: 1100px){
+	.codeqr .subtitulo { 
+		font-size: 16px;
+	  }
+  }
+
+.codeqr p {
+	font-size: 12px;
+	color: #003a1a;
+}
+
+.codeqr .qr img {
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 10px;	
+	border-radius: 8px;
+	box-shadow: 1px 1px 5px #020000c4;
+	border: solid 1px #ffffff;
+}
+.codeqr .scan {
+      color: #080077;
+	  font-size: 12px;
+}
+
 
 /* ----- ----- tour parejas  ----- ----- */
 .parejas {
@@ -654,17 +690,6 @@ footer .rango {
 	  }
   }
 
-@media screen  and  (min-width: 1200px){
-  .descarga, .pago { 
-	display: none;
-	}
-}
-
-@media screen  and  (min-width: 1200px){
-	.descarga, .pago { 
-	  display: none;
-	  }
-  }
 
 @media screen  and  (min-width: 1400px){
 	.sidebar { 
