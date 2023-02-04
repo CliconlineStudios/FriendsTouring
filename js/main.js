@@ -455,6 +455,19 @@ const peru1 = document.getElementById('itens4');
    
     }
  
+}
+
+const ecu1 = document.getElementById('itens5');
+
+ function ecu() {
+   if (ecu1.style.display === 'block') {
+       document.getElementById("itens5").style.display = "none";
+      
+    } else {
+        document.getElementById("itens5").style.display = "block";
+   
+    }
+ 
     
 
 }
