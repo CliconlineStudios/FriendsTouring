@@ -322,7 +322,23 @@ lottie-player {
 			}
 
 		
+.cards .reserva2{
+	margin: 0px 5px;
+	background-color: #d6d6d6a8;
+	border: solid 1px rgb(255, 255, 255, 05);
+	padding: 5px 5px;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	box-shadow: 1px 1px 5px #ffffffc4;
 
+}
+
+.cards .reserva2:hover{
+	background: #3166ec;
+	color: #ffffff;
+	text-decoration: none;
+}
 
 .cards img{
 	width: 100%;
