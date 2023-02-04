@@ -223,7 +223,7 @@ lottie-player {
 
 .portafolio {
 	text-align: center;
-	
+
 }
 
 .portafolio .pr1 {
@@ -307,6 +307,8 @@ lottie-player {
 }
 
 
+
+
 .cards {
 	margin: 5px 0;
 	width: 100%;
@@ -316,15 +318,35 @@ lottie-player {
 	box-shadow: 1px 1px 5px #ffffffc4;
 	border-radius: 15px;
 	
-		
+	
 			}
+
+		
+
 
 .cards img{
 	width: 100%;
 	transition: transform 0.3s;
 			}
+
+
 .cards .zoom {
 	overflow: hidden;
+}
+
+.cards .imgc{
+	box-shadow: 1px 1px 5px #000000c4;
+	width: 90%;
+}
+
+@media screen  and  (min-width: 600px){
+	.cards .imgc { 
+	
+		width: 65%;
+		box-shadow: 2px 2px 5px #000000c4;
+	
+
+	}
 }
 
 
@@ -348,6 +370,11 @@ transform: scale(1.07);
 	font-weight: bold;
 }
 
+.destinos{
+	color: #ffffff;
+	background: #3b6dec;
+}
+
 /* ----- ----- codigoQR ----- ----- */
 .codeqr {
 	text-align: center;
@@ -362,21 +389,20 @@ transform: scale(1.07);
 	
 }
 
-.codeqr .bt .a {
+.codeqr .bt {
 	display: block;
+	background-color: #ffffff;
+	text-decoration: none;
+	color: #0099ff;
+	margin: 20px 30%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #000000c4;
 }
 
-
-.codeqr .bt .bandera {
-	width: 20%;
-	margin: 0px 12px;
-
+.codeqr .bt:hover{
+	color: #f7f7f7;
+	background-color: #0099ff;
 }
-
-.codeqr .bt .bandera:hover {
-	scale: 110%;
-}
-
 
 .codeqr .titulo2  {
 	text-align: center;
@@ -439,8 +465,7 @@ transform: scale(1.07);
 .parejas {
 	text-align: center;
 	padding: 0px 10px;
-	display: none;
-	
+	display: none;	
 }
 
 
@@ -470,7 +495,7 @@ transform: scale(1.07);
   }
   
   th {
-	background-color: rgb(24, 169, 247);
+	background-color: rgb(143, 143, 143);
 	color: #ffffff;
 	font-weight: bold;
 	font-size: 12px;
@@ -615,7 +640,70 @@ display: none;
 	color: #002ea4;
 }
 
+/* ----- ----- screnn6 ----- ----- */
 
+.screen6 {
+	text-align: center;
+	align-items: center;
+	padding: 0px 10px;
+	display: none;
+				}
+
+			
+
+	.screen6 .cardban{
+	margin: 1px 50px 0px;
+	background-color: rgba(255, 255, 255, 0.699);
+	border: solid 1px rgb(255, 255, 255, 05);
+	box-shadow: 1px 1px 5px #140000c4;
+	border-radius: 15px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+
+	}
+.screen6 a {
+	text-decoration: none;
+}
+
+.screen6 .itens1 {
+	display: none;
+}
+
+	.screen6 .cardban:hover{
+		background: #068ef6;
+		color: #ffffff;
+	}
+
+	.screen6 p {
+		text-align: right;
+		font-weight: bold;
+
+	}
+
+
+
+	.screen6 img {
+		width: 15%;
+		max-width: 50px;
+		border-radius: 50%;
+		border: solid 3px #294984;
+		margin: 0px 40% 0px 0px; 
+	}
+
+	@media screen  and  (min-width: 800px){
+		.screen6 img  { 
+		
+			margin: 0px 35% 0px 0px; 
+	
+		}
+	}
+
+	.screen6 img:hover{
+		border: solid 3px #ffffff;
+	}
 
 /* ----- ----- Redes Sociales ----- ----- */
 
@@ -683,7 +771,7 @@ footer .rango {
 @media screen  and  (min-width: 800px){
 	body { 
 	
-		background:linear-gradient(rgba(255, 255, 255, 0.447), rgba(0, 0, 0, 0.173)), url('../img/bg.png') no-repeat;
+		background:linear-gradient(rgba(255, 255, 255, 0.447), rgba(0, 0, 0, 0.173)), url('../img/bg.png') ;
 
 	}
 }
