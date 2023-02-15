@@ -14,7 +14,18 @@ function ids2 () {
 
 };
 
+const contravel = document.querySelector('#travels');
 
+
+function travels() {
+    if(contravel.style.display === 'block'){
+        document.getElementById("travels").style.display = "none";
+    }else {
+
+        document.getElementById("travels").style.display = "block";
+    }
+
+}
 
 window.addEventListener('popstate', e => {
     backweb();
@@ -42,6 +53,7 @@ function backweb() {
         document.getElementById("parejas").style.display = "none";
         document.getElementById("family").style.display = "none";
         document.getElementById("aventura").style.display = "none";
+        document.getElementById("funtrips").style.display = "none";
         document.getElementById("screen4").style.display = "none";
         document.getElementById("screen5").style.display = "none";
         document.getElementById("screen6").style.display = "none";
@@ -57,6 +69,7 @@ function backweb() {
         document.getElementById("parejas").style.display = "none";
         document.getElementById("family").style.display = "none";
         document.getElementById("aventura").style.display = "none";
+        document.getElementById("funtrips").style.display = "none";
         document.getElementById("screen4").style.display = "none";
         document.getElementById("screen5").style.display = "none";
         document.getElementById("codeqr").style.display = "none";
@@ -85,6 +98,8 @@ function home() {
     document.getElementById("screen5").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("screen6").style.display = "none";
+    document.getElementById("travels").style.display = "none";
+    document.getElementById("funtrips").style.display = "none";
     conta=0;
     contador=0;
     backarriba();
@@ -107,6 +122,7 @@ function codigoqr() {
         document.getElementById("side").style.display = "none";
         document.getElementById("family").style.display = "none";
         document.getElementById("aventura").style.display = "none";
+        document.getElementById("funtrips").style.display = "none";
         document.getElementById("parejas").style.display = "none";
         document.getElementById("parejas").style.display = "none";
         document.getElementById("screen6").style.display = "none";
@@ -122,10 +138,12 @@ function couples() {
     document.getElementById("codeqr").style.display = "none";	
     document.getElementById("portafolio").style.display = "none";
     document.getElementById("aventura").style.display = "none";
+    document.getElementById("funtrips").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("family").style.display = "none";
     document.getElementById("aventura").style.display = "none";
     document.getElementById("screen6").style.display = "none";
+    document.getElementById("travels").style.display = "none";
     conta=0;
     contador=2;
     ids2();
@@ -141,8 +159,10 @@ function family() {
     document.getElementById("codeqr").style.display = "none";	
     document.getElementById("portafolio").style.display = "none";
     document.getElementById("aventura").style.display = "none";
+    document.getElementById("funtrips").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("screen6").style.display = "none";
+    document.getElementById("travels").style.display = "none";
     conta=0;
     contador=2;
     ids2();
@@ -155,10 +175,12 @@ function aventura() {
     document.getElementById("aventura").style.display = "block";
     document.getElementById("family").style.display = "none";
     document.getElementById("parejas").style.display = "none";
+    document.getElementById("funtrips").style.display = "none";
     document.getElementById("codeqr").style.display = "none";	
     document.getElementById("portafolio").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("screen6").style.display = "none";
+    document.getElementById("travels").style.display = "none";
     conta=0;
     contador=2;
     ids2();
@@ -166,12 +188,31 @@ function aventura() {
         
 }
 
+function funtrips() {
+    document.getElementById("funtrips").style.display = "block";
+    document.getElementById("aventura").style.display = "none";
+    document.getElementById("family").style.display = "none";
+    document.getElementById("parejas").style.display = "none";
+    document.getElementById("codeqr").style.display = "none";	
+    document.getElementById("portafolio").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("screen6").style.display = "none";
+    document.getElementById("travels").style.display = "none";
+    conta=0;
+    contador=2;
+    ids2();
+    backarriba(); 
+        
+}
+
+
 function screnn4() {
     document.getElementById("screen4").style.display = "block";
     document.getElementById("codeqr").style.display = "none";	
     document.getElementById("portafolio").style.display = "none";
     document.getElementById("screen5").style.display = "none";
     document.getElementById("aventura").style.display = "none";
+    document.getElementById("funtrips").style.display = "none";
     document.getElementById("family").style.display = "none";
     document.getElementById("parejas").style.display = "none";	
     document.getElementById("portafolio").style.display = "none";
@@ -194,6 +235,7 @@ function screen5() {
     document.getElementById("portafolio").style.display = "none";
     document.getElementById("screen5").style.display = "block";
     document.getElementById("aventura").style.display = "none";
+    document.getElementById("funtrips").style.display = "none";
     document.getElementById("family").style.display = "none";
     document.getElementById("parejas").style.display = "none";	
     document.getElementById("portafolio").style.display = "none";
@@ -213,6 +255,7 @@ function screnn6() {
     document.getElementById("portafolio").style.display = "none";
     document.getElementById("screen5").style.display = "none";
     document.getElementById("aventura").style.display = "none";
+    document.getElementById("funtrips").style.display = "none";
     document.getElementById("family").style.display = "none";
     document.getElementById("parejas").style.display = "none";	
     document.getElementById("portafolio").style.display = "none";
@@ -237,6 +280,7 @@ function back() {
         document.getElementById("parejas").style.display = "none";
         document.getElementById("family").style.display = "none";
         document.getElementById("aventura").style.display = "none";
+        document.getElementById("funtrips").style.display = "none";
         document.getElementById("screen4").style.display = "none";
         document.getElementById("screen5").style.display = "none";
         document.getElementById("screen6").style.display = "none";
@@ -252,6 +296,7 @@ function back() {
         document.getElementById("parejas").style.display = "none";
         document.getElementById("family").style.display = "none";
         document.getElementById("aventura").style.display = "none";
+        document.getElementById("funtrips").style.display = "none";
         document.getElementById("screen4").style.display = "none";
         document.getElementById("screen5").style.display = "none";
         document.getElementById("codeqr").style.display = "none";
@@ -289,6 +334,7 @@ function back() {
 
         function cerrarside() {
             document.getElementById("side").style.display = "none";
+            document.getElementById("travels").style.display = "none";
             conta=0;
             
         }
@@ -297,6 +343,7 @@ function back() {
 
         document.querySelector('.tarjeta').addEventListener('click',()=>{
             document.getElementById("side").style.display = "none";
+            document.getElementById("travels").style.display = "none";
             conta=0;
             });
 
@@ -336,11 +383,10 @@ document.querySelector('.side')
           
           function ftuser() {
               Swal.fire({
-                  title: 'Travel Agency',
-                  text: 'add the contact to your phone',
+                  text: 'PERZONALIZED PRIVATE TOURS',
                   imageUrl: 'img/logofriends2.png',
-                  imageWidth: 200,
-                  confirmButtonText: 'Add',
+                  imageWidth: 300,
+                  confirmButtonText: 'Add contact',
                   showCloseButton: 'true',
                   showCancelButton: true,
             
@@ -364,12 +410,12 @@ document.querySelector('.side')
          
           function msj() {
             Swal.fire({
-                title: 'Travel Agency',
-                text: 'Function Available Proximant',
+                text: 'PERZONALIZED PRIVATE TOURS',
                 imageUrl: 'img/logofriends2.png',
                 imageWidth: 200,
                 confirmButtonText: 'ok',
                 showCloseButton: 'true',
+                footer:'Function Available Proximant' ,
             })};
           
 
