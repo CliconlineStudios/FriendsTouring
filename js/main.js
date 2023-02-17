@@ -169,7 +169,21 @@ function family() {
     backarriba(); 
 }
 
-
+function Pacific() {
+    document.getElementById("family").style.display = "block";
+    document.getElementById("parejas").style.display = "none";
+    document.getElementById("codeqr").style.display = "none";	
+    document.getElementById("portafolio").style.display = "none";
+    document.getElementById("aventura").style.display = "none";
+    document.getElementById("funtrips").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("screen6").style.display = "none";
+    document.getElementById("travels").style.display = "none";
+    document.getElementById("royal").scrollIntoView();
+    conta=0;
+    contador=2;
+    ids2(); 
+}
 
 function aventura() {
     document.getElementById("aventura").style.display = "block";
@@ -188,6 +202,25 @@ function aventura() {
         
 }
 
+function islas() {
+    document.getElementById("aventura").style.display = "block";
+    document.getElementById("family").style.display = "none";
+    document.getElementById("parejas").style.display = "none";
+    document.getElementById("funtrips").style.display = "none";
+    document.getElementById("codeqr").style.display = "none";	
+    document.getElementById("portafolio").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("screen6").style.display = "none";
+    document.getElementById("travels").style.display = "none";
+    document.getElementById("A10").scrollIntoView();
+    conta=0;
+    contador=2;
+    ids2();
+
+        
+}
+
+
 function funtrips() {
     document.getElementById("funtrips").style.display = "block";
     document.getElementById("aventura").style.display = "none";
@@ -205,6 +238,22 @@ function funtrips() {
         
 }
 
+function Jungle() {
+    document.getElementById("funtrips").style.display = "block";
+    document.getElementById("aventura").style.display = "none";
+    document.getElementById("family").style.display = "none";
+    document.getElementById("parejas").style.display = "none";
+    document.getElementById("codeqr").style.display = "none";	
+    document.getElementById("portafolio").style.display = "none";
+    document.getElementById("side").style.display = "none";
+    document.getElementById("screen6").style.display = "none";
+    document.getElementById("travels").style.display = "none";
+    document.getElementById("f5").scrollIntoView();
+    conta=0;
+    contador=2;
+    ids2(); 
+        
+}
 
 function screnn4() {
     document.getElementById("screen4").style.display = "block";
@@ -529,6 +578,42 @@ const colom1 = document.getElementById('itens6');
    
     }
  
-    
-
 }
+
+
+// JavaScript
+const image1 = document.getElementById('image1');
+const image2 = document.getElementById('image2');
+
+let currentImage = 1; // Inicia con la primera imagen
+setInterval(() => {
+  if (currentImage === 1) {
+    image1.style.display = 'none';
+    image2.style.display = 'block';
+    currentImage = 2;
+  } else {
+    image1.style.display = 'block';
+    image2.style.display = 'none';
+    currentImage = 1;
+  }
+}, 2000);
+
+// JavaScript
+
+
+
+const image3 = document.getElementById('image3');
+const image4 = document.getElementById('image4');
+
+let currentImage34 = 1; // Inicia con la primera imagen
+setInterval(() => {
+  if (currentImage34 === 1) {
+    image3.style.display = 'none';
+    image4.style.display = 'block';
+    currentImage34 = 2;
+  } else {
+    image3.style.display = 'block';
+    image4.style.display = 'none';
+    currentImage34 = 1;
+  }
+}, 2000);
