@@ -460,9 +460,26 @@ transform: scale(1.07);
 .codeqr {
 	text-align: center;
 	display: none;
+}
+
+.codeqr .idiomas a {
+
+ padding: 0px 20px;
+
+}
+
+
+.codeqr .idiomas img {
+width: 15%;
 
 
 }
+
+.codeqr .idiomas img:hover{
+	transform: scale(1.07);
+	box-shadow: 1px 1px 5px #000000c4;
+}
+
 .codeqr .logo2 {
 	width: 60%;
 	padding: 5px 0px 0px;
