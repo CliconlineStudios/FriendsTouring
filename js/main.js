@@ -618,23 +618,3 @@ setInterval(() => {
   }
 }, 2000);
 
-var activartarjeta = 'https://friendstouring.blogspot.com/p/servicios-cliconline.html'
-
-
-document.addEventListener('DOMContentLoaded', sms3);
-
-    function sms3 (){
-        Swal.fire({
-            position: 'bottom',
-            imageWidth: 300,
-            imageUrl: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEwROiXnAUUfQYRJ2kBz4Qj3poeHJ1m1S3xupdCOUuYcFTPTDrfsI7HmDc4pMnXkIpIy5go6h84Ydv5Q4BHohi_vSyTo5bYX43El_1yJNiM1jT1tB6FO3bVoQnw3K-SRDvd3LJnKVocR4CPW0mgtSlmGshKgFb_6KBI6buMq2n_g2DO0Pay6rnl80l/s320/bannerapp.png',
-            title: 'Activa tu Tarjeta Digital',
-            footer: 'Cliconline Studios',
-            allowOutsideClick:false,
-            confirmButtonText:'Activar'
-           }).then((result) => {
-            if (result.isConfirmed) {
-                window.location.href =(activartarjeta);
-            }
-          })
-    };
